@@ -1,0 +1,77 @@
+
+html {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+}
+.title {
+    font-size: 1.25rem;
+    display: block;
+    text-align: center;
+}
+.team {
+    background-image: url(https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/blurred-road.jpg);
+}
+.nav ul {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+.nav-list li {
+    list-style: none;
+    flex-direction: row;
+    text-align: center;
+    margin: auto;
+}
+#portfolio {
+    padding-right: 1.25rem;
+}
+.portfolio {
+    padding: 10px 0;
+    color: white;
+    background-image: url(https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/skyscrapers.jpg);
+    
+}
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+.portfolio-piece img {
+    max-width: 100px;
+    padding-right: 1rem;
+}
+.teammate img {
+    width: 150px;
+    max-height: 175px;
+    margin: auto;
+    padding-bottom: 0;
+    
+}
+.team {
+    display: flex;
+    flex-direction: row;
+}
+.teammate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    padding: auto;
+    margin: auto;
+}
+.teammate h3 {
+    margin-bottom: 0rem;
+}
+.kim img {
+    padding-top: 1rem;
+}
+.portfolio-piece {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 1.5rem;
+    padding-top: 3rem;
+    
+}
