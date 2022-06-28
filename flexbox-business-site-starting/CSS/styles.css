@@ -31,6 +31,22 @@ html {
     padding: 10px 0;
     color: white;
     background-image: url(https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/skyscrapers.jpg);
+    background-color: white;
+    height: 125px;
+    
+}
+.portfolio h3 {
+    margin-bottom: 0.25rem;
+    font-size: 1.25rem;
+}
+.portfolio p {
+    margin-top: 0;
+    font-size: 0.75rem;
+}
+.case-text {
+    background-color: white;
+    color: black;
+    margin-top: 45px;
     
 }
 .portfolio-container {
